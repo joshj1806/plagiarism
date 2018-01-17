@@ -14,7 +14,7 @@ Virtual Functions are used for future extension. Synonym dictioanry can be made 
 Recently data storage has became cheaper resource than computation. To leverage this trend, this program uses extra space to build the synonyms dictionary and sets of tuples. 
 
 ## Performance
-It's time complexity is O(N+logN).
+It's time complexity is O(N+logT) where T is number of tuples.
 
 ## Assumptions and Limitations
 1. Tuples are built on line not a paragraph nor entire text. For example, a line with 4 words have two 3-Tuples. If next line has the same number of words, the next line also has two 3-Tuples. Thus, four 3-Tuples are made out the text.
